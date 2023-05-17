@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>MY FINAL PROJECT</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <h1 class="logo">RED SHOE SHOP</h1>
+            </div>
+
+            <div class="navItem">
+                <span class="red Shoe Shop">Red Shoe Shop</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">ONLY:2,793</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">ONLY:2,514</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">ONLY1,676</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">ONLY:2,234</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">OLNY:1,396</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">$199</h2>
+            
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">40</div>
+                <div class="size">41</div>
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+                <div class="size">45</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Full name</label>
+            <input type="text" placeholder="Type your fullname " class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+63 XXX XXXX" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Old cabalan ,Olongapo City" class="payInput">
+
+            <div class="cardIcons">
+                
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="Month" class="payInput sm">
+                <input type="text" placeholder="Day" class="payInput sm">
+                <input type="text" placeholder="Year" class="payInput sm">
+            </div>
+            <script>
+                function handleClick() {
+                    alert("Done!...Thank you for buying this product");
+                }
+            </script>
+            <button class="payButton" onclick="handleClick()">Checkout!</button>
+
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/563f0e69847597.5b8f968baa4eb.gif"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://thumbs.gfycat.com/CompetentZestyIvorybackedwoodswallow-max-1mb.gif"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="https://cdn.dribbble.com/users/5660378/screenshots/13123021/media/0bfe74a7d1303d22190c5dc3bec5d163.gif"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://i.pinimg.com/originals/2a/8c/4b/2a8c4b0e7764e5222189be4f4c01cc4d.gif"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">MY FINAL PROJECT in Usability, HCI, UI Design (Web Design)</h3>
+            <h1 class="nsTitle">Rediel B. Rizardo</h1>
+            <h1 class="nsTitle">RED SHOE SHOP COLLECTTION</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,q_70/bqeuynsecmhktceqlyho/best-air-jordans-2016"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+
+</html>
